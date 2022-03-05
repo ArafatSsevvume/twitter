@@ -15,10 +15,16 @@ body{
     flex-direction: column;
     height: 100vh;
 }
-.footer-item{
+.footer-item {
  color: rgb(136, 153, 166);
- margin-right: 16px;
  font-size: 13px;
+ 
+}
+#links{
+    color: rgb(136, 153, 166) ;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 13px;
 }
 .content{
     flex-grow: 1;
