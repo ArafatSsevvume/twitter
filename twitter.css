@@ -1,0 +1,132 @@
+body{
+ font-family: Arial;
+ margin: 0;
+ padding: 0;
+}
+
+.footer{
+   flex-grow: 0;
+   text-align: center;
+   padding: 15px, 15px;
+   background-color: #15212b;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.footer-item{
+ color: rgb(136, 153, 166);
+ margin-right: 16px;
+ font-size: 13px;
+}
+.content{
+    flex-grow: 1;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+.div-right{
+    width: 50%;
+    display: flex;
+}
+.feature{
+    top: 20%;
+    left: 60%;
+    position:absolute;
+}
+.div-buttons{
+    top: 50%;
+    left: 60%;
+    position: absolute;
+    
+}
+.div-left{
+    width: 50%;
+    background-color: #71c9f8;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.background-bird{
+    max-width: none;
+    left:-20vh;
+    top:-30vh;
+    height: 160vh;
+    position: absolute;
+}
+.background-bird svg{
+    height: 100%;
+
+    
+}
+.description{
+    z-index: 3;
+}
+.elements{
+    line-height: 60px;
+    font-size: 19px;
+    font-weight: 100;
+    color: white;
+    justify-content: space-between;
+
+}
+.elements i{
+    width: 26px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.login{
+    border-radius: 70px;
+    width: 220px;
+    padding: 5px;
+    font-size: 15px;
+    
+   
+}
+.login input{
+    background: #dbe3eb;
+    width: 200px;
+    padding: 5px;
+    height: 7vh;
+    font-size: 15px;
+    border: none;
+    border-bottom:1px solid #15212b;
+}
+.login a{
+    text-decoration: none;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px;
+
+}
+.form,.butn{
+    width: 75%;
+    padding: 2%;
+    height: 7vh;
+    text-align: center;
+    border-radius: 40%;
+    padding: 5px;
+    border-color: #29a0e0;
+    color: #29a0e0;
+}
+.div-buttons input{
+    display: block;
+    border-radius: 70px;
+    width: 320px;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    border-color: rgba(29,161,242,1.00);
+    background-color: rgba(29,161,242,1.00) ;
+}
